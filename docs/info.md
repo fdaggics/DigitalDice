@@ -17,4 +17,4 @@ pin "trigger" to roll the dice. Results should come out random
 
 ## External hardware
 
-Potencially leds
+Potencially leds and 7 segment displays
