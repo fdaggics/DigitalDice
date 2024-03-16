@@ -1,11 +1,11 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  wokwi_id:     392486227189299201       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Digital Dice"      # Project title
+  author:       "Zhengyang Zhuang"      # Your name
+  discord:      "PolandGuard"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "a digital dice using simple LFSR"      # One line description of what your project does
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
@@ -14,8 +14,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "trigger"
+  ui[1]: "twty_mode"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -24,11 +24,11 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
+  uo[0]: "D4"
+  uo[1]: "D5"
+  uo[2]: "D6"
+  uo[3]: "D7"
+  uo[4]: "D8"
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
